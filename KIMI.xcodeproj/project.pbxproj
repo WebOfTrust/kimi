@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BA2241C027E3A1F60091135D /* kimiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2241BF27E3A1F60091135D /* kimiApp.swift */; };
+		BA2241C027E3A1F60091135D /* KIMIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2241BF27E3A1F60091135D /* KIMIApp.swift */; };
 		BA2241C227E3A1F60091135D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2241C127E3A1F60091135D /* ContentView.swift */; };
 		BA2241C427E3A1F60091135D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA2241C327E3A1F60091135D /* Assets.xcassets */; };
 		BA2241C727E3A1F60091135D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA2241C627E3A1F60091135D /* Preview Assets.xcassets */; };
-		BA2241D127E3A1F60091135D /* kimiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2241D027E3A1F60091135D /* kimiTests.swift */; };
-		BA2241DB27E3A1F70091135D /* kimiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2241DA27E3A1F70091135D /* kimiUITests.swift */; };
-		BA2241DD27E3A1F70091135D /* kimiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2241DC27E3A1F70091135D /* kimiUITestsLaunchTests.swift */; };
+		BA2241D127E3A1F60091135D /* KIMITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2241D027E3A1F60091135D /* KIMITests.swift */; };
+		BA2241DB27E3A1F70091135D /* KIMIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2241DA27E3A1F70091135D /* KIMIUITests.swift */; };
+		BA2241DD27E3A1F70091135D /* KIMIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2241DC27E3A1F70091135D /* KIMIUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +34,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BA2241BC27E3A1F60091135D /* kimi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kimi.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA2241BF27E3A1F60091135D /* kimiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kimiApp.swift; sourceTree = "<group>"; };
+		BA2241BC27E3A1F60091135D /* KIMI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KIMI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA2241BF27E3A1F60091135D /* KIMIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KIMIApp.swift; sourceTree = "<group>"; };
 		BA2241C127E3A1F60091135D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BA2241C327E3A1F60091135D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA2241C627E3A1F60091135D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		BA2241CC27E3A1F60091135D /* kimiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kimiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA2241D027E3A1F60091135D /* kimiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kimiTests.swift; sourceTree = "<group>"; };
-		BA2241D627E3A1F70091135D /* kimiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kimiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA2241DA27E3A1F70091135D /* kimiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kimiUITests.swift; sourceTree = "<group>"; };
-		BA2241DC27E3A1F70091135D /* kimiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kimiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BA2241CC27E3A1F60091135D /* KIMITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KIMITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA2241D027E3A1F60091135D /* KIMITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KIMITests.swift; sourceTree = "<group>"; };
+		BA2241D627E3A1F70091135D /* KIMIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KIMIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA2241DA27E3A1F70091135D /* KIMIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KIMIUITests.swift; sourceTree = "<group>"; };
+		BA2241DC27E3A1F70091135D /* KIMIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KIMIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +74,9 @@
 		BA2241B327E3A1F60091135D = {
 			isa = PBXGroup;
 			children = (
-				BA2241BE27E3A1F60091135D /* kimi */,
-				BA2241CF27E3A1F60091135D /* kimiTests */,
-				BA2241D927E3A1F70091135D /* kimiUITests */,
+				BA2241BE27E3A1F60091135D /* KIMI */,
+				BA2241CF27E3A1F60091135D /* KIMITests */,
+				BA2241D927E3A1F70091135D /* KIMIUITests */,
 				BA2241BD27E3A1F60091135D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,22 +84,22 @@
 		BA2241BD27E3A1F60091135D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BA2241BC27E3A1F60091135D /* kimi.app */,
-				BA2241CC27E3A1F60091135D /* kimiTests.xctest */,
-				BA2241D627E3A1F70091135D /* kimiUITests.xctest */,
+				BA2241BC27E3A1F60091135D /* KIMI.app */,
+				BA2241CC27E3A1F60091135D /* KIMITests.xctest */,
+				BA2241D627E3A1F70091135D /* KIMIUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BA2241BE27E3A1F60091135D /* kimi */ = {
+		BA2241BE27E3A1F60091135D /* KIMI */ = {
 			isa = PBXGroup;
 			children = (
-				BA2241BF27E3A1F60091135D /* kimiApp.swift */,
+				BA2241BF27E3A1F60091135D /* KIMIApp.swift */,
 				BA2241C127E3A1F60091135D /* ContentView.swift */,
 				BA2241C327E3A1F60091135D /* Assets.xcassets */,
 				BA2241C527E3A1F60091135D /* Preview Content */,
 			);
-			path = kimi;
+			path = KIMI;
 			sourceTree = "<group>";
 		};
 		BA2241C527E3A1F60091135D /* Preview Content */ = {
@@ -110,46 +110,47 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		BA2241CF27E3A1F60091135D /* kimiTests */ = {
+		BA2241CF27E3A1F60091135D /* KIMITests */ = {
 			isa = PBXGroup;
 			children = (
-				BA2241D027E3A1F60091135D /* kimiTests.swift */,
+				BA2241D027E3A1F60091135D /* KIMITests.swift */,
 			);
-			path = kimiTests;
+			path = KIMITests;
 			sourceTree = "<group>";
 		};
-		BA2241D927E3A1F70091135D /* kimiUITests */ = {
+		BA2241D927E3A1F70091135D /* KIMIUITests */ = {
 			isa = PBXGroup;
 			children = (
-				BA2241DA27E3A1F70091135D /* kimiUITests.swift */,
-				BA2241DC27E3A1F70091135D /* kimiUITestsLaunchTests.swift */,
+				BA2241DA27E3A1F70091135D /* KIMIUITests.swift */,
+				BA2241DC27E3A1F70091135D /* KIMIUITestsLaunchTests.swift */,
 			);
-			path = kimiUITests;
+			path = KIMIUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BA2241BB27E3A1F60091135D /* kimi */ = {
+		BA2241BB27E3A1F60091135D /* KIMI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BA2241E027E3A1F70091135D /* Build configuration list for PBXNativeTarget "kimi" */;
+			buildConfigurationList = BA2241E027E3A1F70091135D /* Build configuration list for PBXNativeTarget "KIMI" */;
 			buildPhases = (
 				BA2241B827E3A1F60091135D /* Sources */,
 				BA2241B927E3A1F60091135D /* Frameworks */,
 				BA2241BA27E3A1F60091135D /* Resources */,
+				5EB6C47D27E91FF800B04950 /* SwiftLint */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = kimi;
+			name = KIMI;
 			productName = kimi;
-			productReference = BA2241BC27E3A1F60091135D /* kimi.app */;
+			productReference = BA2241BC27E3A1F60091135D /* KIMI.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BA2241CB27E3A1F60091135D /* kimiTests */ = {
+		BA2241CB27E3A1F60091135D /* KIMITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BA2241E327E3A1F70091135D /* Build configuration list for PBXNativeTarget "kimiTests" */;
+			buildConfigurationList = BA2241E327E3A1F70091135D /* Build configuration list for PBXNativeTarget "KIMITests" */;
 			buildPhases = (
 				BA2241C827E3A1F60091135D /* Sources */,
 				BA2241C927E3A1F60091135D /* Frameworks */,
@@ -160,14 +161,14 @@
 			dependencies = (
 				BA2241CE27E3A1F60091135D /* PBXTargetDependency */,
 			);
-			name = kimiTests;
+			name = KIMITests;
 			productName = kimiTests;
-			productReference = BA2241CC27E3A1F60091135D /* kimiTests.xctest */;
+			productReference = BA2241CC27E3A1F60091135D /* KIMITests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		BA2241D527E3A1F60091135D /* kimiUITests */ = {
+		BA2241D527E3A1F60091135D /* KIMIUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BA2241E627E3A1F70091135D /* Build configuration list for PBXNativeTarget "kimiUITests" */;
+			buildConfigurationList = BA2241E627E3A1F70091135D /* Build configuration list for PBXNativeTarget "KIMIUITests" */;
 			buildPhases = (
 				BA2241D227E3A1F60091135D /* Sources */,
 				BA2241D327E3A1F60091135D /* Frameworks */,
@@ -178,9 +179,9 @@
 			dependencies = (
 				BA2241D827E3A1F70091135D /* PBXTargetDependency */,
 			);
-			name = kimiUITests;
+			name = KIMIUITests;
 			productName = kimiUITests;
-			productReference = BA2241D627E3A1F70091135D /* kimiUITests.xctest */;
+			productReference = BA2241D627E3A1F70091135D /* KIMIUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +207,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BA2241B727E3A1F60091135D /* Build configuration list for PBXProject "kimi" */;
+			buildConfigurationList = BA2241B727E3A1F60091135D /* Build configuration list for PBXProject "KIMI" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +220,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BA2241BB27E3A1F60091135D /* kimi */,
-				BA2241CB27E3A1F60091135D /* kimiTests */,
-				BA2241D527E3A1F60091135D /* kimiUITests */,
+				BA2241BB27E3A1F60091135D /* KIMI */,
+				BA2241CB27E3A1F60091135D /* KIMITests */,
+				BA2241D527E3A1F60091135D /* KIMIUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -252,13 +253,34 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5EB6C47D27E91FF800B04950 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nE\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BA2241B827E3A1F60091135D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BA2241C227E3A1F60091135D /* ContentView.swift in Sources */,
-				BA2241C027E3A1F60091135D /* kimiApp.swift in Sources */,
+				BA2241C027E3A1F60091135D /* KIMIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA2241D127E3A1F60091135D /* kimiTests.swift in Sources */,
+				BA2241D127E3A1F60091135D /* KIMITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +296,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA2241DD27E3A1F70091135D /* kimiUITestsLaunchTests.swift in Sources */,
-				BA2241DB27E3A1F70091135D /* kimiUITests.swift in Sources */,
+				BA2241DD27E3A1F70091135D /* KIMIUITestsLaunchTests.swift in Sources */,
+				BA2241DB27E3A1F70091135D /* KIMIUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,12 +306,12 @@
 /* Begin PBXTargetDependency section */
 		BA2241CE27E3A1F60091135D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BA2241BB27E3A1F60091135D /* kimi */;
+			target = BA2241BB27E3A1F60091135D /* KIMI */;
 			targetProxy = BA2241CD27E3A1F60091135D /* PBXContainerItemProxy */;
 		};
 		BA2241D827E3A1F70091135D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BA2241BB27E3A1F60091135D /* kimi */;
+			target = BA2241BB27E3A1F60091135D /* KIMI */;
 			targetProxy = BA2241D727E3A1F70091135D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -485,7 +507,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kimi.app/kimi";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KIMI.app/KIMI";
 			};
 			name = Debug;
 		};
@@ -505,7 +527,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kimi.app/kimi";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KIMI.app/KIMI";
 			};
 			name = Release;
 		};
@@ -548,7 +570,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BA2241B727E3A1F60091135D /* Build configuration list for PBXProject "kimi" */ = {
+		BA2241B727E3A1F60091135D /* Build configuration list for PBXProject "KIMI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BA2241DE27E3A1F70091135D /* Debug */,
@@ -557,7 +579,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BA2241E027E3A1F70091135D /* Build configuration list for PBXNativeTarget "kimi" */ = {
+		BA2241E027E3A1F70091135D /* Build configuration list for PBXNativeTarget "KIMI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BA2241E127E3A1F70091135D /* Debug */,
@@ -566,7 +588,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BA2241E327E3A1F70091135D /* Build configuration list for PBXNativeTarget "kimiTests" */ = {
+		BA2241E327E3A1F70091135D /* Build configuration list for PBXNativeTarget "KIMITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BA2241E427E3A1F70091135D /* Debug */,
@@ -575,7 +597,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BA2241E627E3A1F70091135D /* Build configuration list for PBXNativeTarget "kimiUITests" */ = {
+		BA2241E627E3A1F70091135D /* Build configuration list for PBXNativeTarget "KIMIUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BA2241E727E3A1F70091135D /* Debug */,

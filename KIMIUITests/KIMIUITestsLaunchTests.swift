@@ -1,13 +1,13 @@
 //
-//  kimiUITestsLaunchTests.swift
-//  kimiUITests
+//  KIMIUITestsLaunchTests.swift
+//  KIMIUITests
 //
 //  Created by Kevin Griffin on 3/17/22.
 //
 
 import XCTest
 
-class kimiUITestsLaunchTests: XCTestCase {
+class KIMIUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
