@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E3F3F7827EC59B400BF28BF /* StyleGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3F3F7727EC59B400BF28BF /* StyleGuide.swift */; };
+		5E40F4C427ED1AD700B0EE0D /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E40F4C327ED1AD700B0EE0D /* ContainerView.swift */; };
+		5E40F4C627ED1B6800B0EE0D /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E40F4C527ED1B6800B0EE0D /* ActionButton.swift */; };
 		BA2241C027E3A1F60091135D /* KIMIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2241BF27E3A1F60091135D /* KIMIApp.swift */; };
 		BA2241C227E3A1F60091135D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2241C127E3A1F60091135D /* ContentView.swift */; };
 		BA2241C427E3A1F60091135D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA2241C327E3A1F60091135D /* Assets.xcassets */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5E3F3F7727EC59B400BF28BF /* StyleGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleGuide.swift; sourceTree = "<group>"; };
+		5E40F4C327ED1AD700B0EE0D /* ContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
+		5E40F4C527ED1B6800B0EE0D /* ActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
 		BA2241BC27E3A1F60091135D /* KIMI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KIMI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA2241BF27E3A1F60091135D /* KIMIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KIMIApp.swift; sourceTree = "<group>"; };
 		BA2241C127E3A1F60091135D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +77,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E40F4C227ED1AC100B0EE0D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				5E40F4C327ED1AD700B0EE0D /* ContainerView.swift */,
+				5E40F4C527ED1B6800B0EE0D /* ActionButton.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		BA2241B327E3A1F60091135D = {
 			isa = PBXGroup;
 			children = (
@@ -94,10 +109,12 @@
 		BA2241BE27E3A1F60091135D /* KIMI */ = {
 			isa = PBXGroup;
 			children = (
+				5E40F4C227ED1AC100B0EE0D /* Utilities */,
 				BA2241BF27E3A1F60091135D /* KIMIApp.swift */,
 				BA2241C127E3A1F60091135D /* ContentView.swift */,
 				BA2241C327E3A1F60091135D /* Assets.xcassets */,
 				BA2241C527E3A1F60091135D /* Preview Content */,
+				5E3F3F7727EC59B400BF28BF /* StyleGuide.swift */,
 			);
 			path = KIMI;
 			sourceTree = "<group>";
@@ -279,8 +296,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E40F4C427ED1AD700B0EE0D /* ContainerView.swift in Sources */,
 				BA2241C227E3A1F60091135D /* ContentView.swift in Sources */,
+				5E3F3F7827EC59B400BF28BF /* StyleGuide.swift in Sources */,
 				BA2241C027E3A1F60091135D /* KIMIApp.swift in Sources */,
+				5E40F4C627ED1B6800B0EE0D /* ActionButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
