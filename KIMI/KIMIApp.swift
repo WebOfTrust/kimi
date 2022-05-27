@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct KIMIApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+  @StateObject private var store = WalletStore()
+
+  var body: some Scene {
+    WindowGroup {
+      NavigationView {
+        WelcomeView()
+      }
     }
+  }
 }

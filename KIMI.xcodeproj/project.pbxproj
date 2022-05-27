@@ -7,9 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E0D3B0B28292819006C7932 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0D3B0A28292819006C7932 /* User.swift */; };
+		5E195C4D283D0B6800D873F4 /* AutonomousIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E195C4C283D0B6800D873F4 /* AutonomousIdentifier.swift */; };
+		5E195C81283E978700D873F4 /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E195C80283E978700D873F4 /* ErrorWrapper.swift */; };
+		5E195C83283E97B200D873F4 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E195C82283E97B200D873F4 /* ErrorView.swift */; };
+		5E195C85283EC70500D873F4 /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E195C84283EC70500D873F4 /* Authentication.swift */; };
+		5E195C88283F65E500D873F4 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E195C87283F65E500D873F4 /* WelcomeView.swift */; };
+		5E195C8A283F66A100D873F4 /* CreateAIDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E195C89283F66A100D873F4 /* CreateAIDView.swift */; };
+		5E195C8C283F685600D873F4 /* StepsToCreateAIDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E195C8B283F685600D873F4 /* StepsToCreateAIDView.swift */; };
+		5E195C8E283F6A4500D873F4 /* CreateAliasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E195C8D283F6A4500D873F4 /* CreateAliasView.swift */; };
+		5E195C90283F6B8700D873F4 /* WitnessURLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E195C8F283F6B8700D873F4 /* WitnessURLView.swift */; };
+		5E195C93283F7FA700D873F4 /* WalletStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E195C92283F7FA700D873F4 /* WalletStore.swift */; };
+		5E195C95283F8C1A00D873F4 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E195C94283F8C1A00D873F4 /* Button.swift */; };
+		5E195CA82840318A00D873F4 /* ConfigureAdvancedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E195CA72840318A00D873F4 /* ConfigureAdvancedView.swift */; };
+		5E195CAA2840328600D873F4 /* SelectAliasPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E195CA92840328600D873F4 /* SelectAliasPhotoView.swift */; };
+		5E195CAE2841009D00D873F4 /* PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E195CAD2841009D00D873F4 /* PhotoPicker.swift */; };
+		5E195CB02841087800D873F4 /* ReviewConfirmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E195CAF2841087800D873F4 /* ReviewConfirmView.swift */; };
 		5E3F3F7827EC59B400BF28BF /* StyleGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3F3F7727EC59B400BF28BF /* StyleGuide.swift */; };
 		5E40F4C427ED1AD700B0EE0D /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E40F4C327ED1AD700B0EE0D /* ContainerView.swift */; };
-		5E40F4C627ED1B6800B0EE0D /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E40F4C527ED1B6800B0EE0D /* ActionButton.swift */; };
 		BA2241C027E3A1F60091135D /* KIMIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2241BF27E3A1F60091135D /* KIMIApp.swift */; };
 		BA2241C227E3A1F60091135D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2241C127E3A1F60091135D /* ContentView.swift */; };
 		BA2241C427E3A1F60091135D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA2241C327E3A1F60091135D /* Assets.xcassets */; };
@@ -37,9 +52,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5E0D3B0828292510006C7932 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5E0D3B0A28292819006C7932 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5E195C4C283D0B6800D873F4 /* AutonomousIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutonomousIdentifier.swift; sourceTree = "<group>"; };
+		5E195C80283E978700D873F4 /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
+		5E195C82283E97B200D873F4 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		5E195C84283EC70500D873F4 /* Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
+		5E195C87283F65E500D873F4 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		5E195C89283F66A100D873F4 /* CreateAIDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAIDView.swift; sourceTree = "<group>"; };
+		5E195C8B283F685600D873F4 /* StepsToCreateAIDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsToCreateAIDView.swift; sourceTree = "<group>"; };
+		5E195C8D283F6A4500D873F4 /* CreateAliasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAliasView.swift; sourceTree = "<group>"; };
+		5E195C8F283F6B8700D873F4 /* WitnessURLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WitnessURLView.swift; sourceTree = "<group>"; };
+		5E195C92283F7FA700D873F4 /* WalletStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletStore.swift; sourceTree = "<group>"; };
+		5E195C94283F8C1A00D873F4 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		5E195CA72840318A00D873F4 /* ConfigureAdvancedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureAdvancedView.swift; sourceTree = "<group>"; };
+		5E195CA92840328600D873F4 /* SelectAliasPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectAliasPhotoView.swift; sourceTree = "<group>"; };
+		5E195CAD2841009D00D873F4 /* PhotoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPicker.swift; sourceTree = "<group>"; };
+		5E195CAF2841087800D873F4 /* ReviewConfirmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewConfirmView.swift; sourceTree = "<group>"; };
 		5E3F3F7727EC59B400BF28BF /* StyleGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleGuide.swift; sourceTree = "<group>"; };
 		5E40F4C327ED1AD700B0EE0D /* ContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
-		5E40F4C527ED1B6800B0EE0D /* ActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
 		BA2241BC27E3A1F60091135D /* KIMI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KIMI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA2241BF27E3A1F60091135D /* KIMIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KIMIApp.swift; sourceTree = "<group>"; };
 		BA2241C127E3A1F60091135D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,11 +108,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E0D3B09282927AE006C7932 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D3B0A28292819006C7932 /* User.swift */,
+				5E195C4C283D0B6800D873F4 /* AutonomousIdentifier.swift */,
+				5E195C80283E978700D873F4 /* ErrorWrapper.swift */,
+				5E195C92283F7FA700D873F4 /* WalletStore.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5E0D3B2628294A76006C7932 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5E195C86283F65B400D873F4 /* Setup */,
+				5E40F4C327ED1AD700B0EE0D /* ContainerView.swift */,
+				5E195C82283E97B200D873F4 /* ErrorView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5E195C86283F65B400D873F4 /* Setup */ = {
+			isa = PBXGroup;
+			children = (
+				5E195C87283F65E500D873F4 /* WelcomeView.swift */,
+				5E195C89283F66A100D873F4 /* CreateAIDView.swift */,
+				5E195C8B283F685600D873F4 /* StepsToCreateAIDView.swift */,
+				5E195C8D283F6A4500D873F4 /* CreateAliasView.swift */,
+				5E195C8F283F6B8700D873F4 /* WitnessURLView.swift */,
+				5E195CA72840318A00D873F4 /* ConfigureAdvancedView.swift */,
+				5E195CA92840328600D873F4 /* SelectAliasPhotoView.swift */,
+				5E195CAF2841087800D873F4 /* ReviewConfirmView.swift */,
+			);
+			path = Setup;
+			sourceTree = "<group>";
+		};
 		5E40F4C227ED1AC100B0EE0D /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				5E40F4C327ED1AD700B0EE0D /* ContainerView.swift */,
-				5E40F4C527ED1B6800B0EE0D /* ActionButton.swift */,
+				5E195C84283EC70500D873F4 /* Authentication.swift */,
+				5E195C94283F8C1A00D873F4 /* Button.swift */,
+				5E195CAD2841009D00D873F4 /* PhotoPicker.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -109,6 +177,9 @@
 		BA2241BE27E3A1F60091135D /* KIMI */ = {
 			isa = PBXGroup;
 			children = (
+				5E0D3B0828292510006C7932 /* Info.plist */,
+				5E0D3B2628294A76006C7932 /* Views */,
+				5E0D3B09282927AE006C7932 /* Models */,
 				5E40F4C227ED1AC100B0EE0D /* Utilities */,
 				BA2241BF27E3A1F60091135D /* KIMIApp.swift */,
 				BA2241C127E3A1F60091135D /* ContentView.swift */,
@@ -296,11 +367,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E195C4D283D0B6800D873F4 /* AutonomousIdentifier.swift in Sources */,
+				5E195C90283F6B8700D873F4 /* WitnessURLView.swift in Sources */,
+				5E195CB02841087800D873F4 /* ReviewConfirmView.swift in Sources */,
+				5E195C93283F7FA700D873F4 /* WalletStore.swift in Sources */,
 				5E40F4C427ED1AD700B0EE0D /* ContainerView.swift in Sources */,
 				BA2241C227E3A1F60091135D /* ContentView.swift in Sources */,
+				5E195CA82840318A00D873F4 /* ConfigureAdvancedView.swift in Sources */,
+				5E195C81283E978700D873F4 /* ErrorWrapper.swift in Sources */,
+				5E0D3B0B28292819006C7932 /* User.swift in Sources */,
+				5E195C83283E97B200D873F4 /* ErrorView.swift in Sources */,
+				5E195C8A283F66A100D873F4 /* CreateAIDView.swift in Sources */,
+				5E195CAA2840328600D873F4 /* SelectAliasPhotoView.swift in Sources */,
+				5E195C8C283F685600D873F4 /* StepsToCreateAIDView.swift in Sources */,
 				5E3F3F7827EC59B400BF28BF /* StyleGuide.swift in Sources */,
+				5E195CAE2841009D00D873F4 /* PhotoPicker.swift in Sources */,
+				5E195C88283F65E500D873F4 /* WelcomeView.swift in Sources */,
+				5E195C8E283F6A4500D873F4 /* CreateAliasView.swift in Sources */,
 				BA2241C027E3A1F60091135D /* KIMIApp.swift in Sources */,
-				5E40F4C627ED1B6800B0EE0D /* ActionButton.swift in Sources */,
+				5E195C85283EC70500D873F4 /* Authentication.swift in Sources */,
+				5E195C95283F8C1A00D873F4 /* Button.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,9 +545,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"kimi/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = UYU2T98W35;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KIMI/Info.plist;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "$(PRODUCT_NAME) Authentication with biometrics.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -489,9 +577,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"kimi/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = UYU2T98W35;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KIMI/Info.plist;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "$(PRODUCT_NAME) Authentication with biometrics.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

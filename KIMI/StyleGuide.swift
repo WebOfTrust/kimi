@@ -8,42 +8,42 @@
 import SwiftUI
 
 enum ColorType: String, CaseIterable {
-    /// Branding colors
-    case branding
-    case secondaryBranding
+  /// Branding colors
+  case branding
+  case secondaryBranding
 
-    /// Text colors
-    case headline
-    case subheadline
+  /// Text colors
+  case headline
+  case subheadline
 
-    /// Button colors
-    case primaryAction
-    case secondaryAction
-    case buttonTitleColor
-    case buttonShadow
+  /// Button colors
+  case primaryAction
+  case secondaryAction
+  case buttonTitleColor
+  case buttonShadow
 
-    /// Background colors
-    case background
-    case systemBackground
-    case secondaryBackground
+  /// Background colors
+  case background
+  case systemBackground
+  case secondaryBackground
 
-    case shadow
+  case shadow
 
-    var name: String {
+  var name: String {
     self.rawValue
-    }
+  }
 }
 
 extension UIColor {
-    convenience init(colorType: ColorType) {
-        self.init(named: colorType.name)!
-    }
+  convenience init(colorType: ColorType) {
+    self.init(named: colorType.name)!
+  }
 }
 
 extension Color {
-    init(colorType: ColorType) {
-        self = Color(colorType.name)
-    }
+  init(colorType: ColorType) {
+    self = Color(colorType.name)
+  }
 }
 
 extension View {
@@ -67,21 +67,21 @@ extension Shape {
 }
 
 extension UIFont {
-    class var navTitle: UIFont {
-      return UIFont(name: "AvenirNext-Bold", size: 20.0)!
-    }
+  class var navTitle: UIFont {
+    return UIFont(name: "AvenirNext-Bold", size: 24.0)!
+  }
 
-    class var headline: UIFont {
-      return UIFont(name: "AvenirNext-Bold", size: 16.0)!
-    }
+  class var headline: UIFont {
+    return UIFont(name: "AvenirNext-Bold", size: 22.0)!
+  }
 
-    class var buttonTitle: UIFont {
-      return UIFont(name: "AvenirNext-DemiBold", size: 12.0)!
-    }
+  class var buttonTitle: UIFont {
+    return UIFont(name: "AvenirNext-DemiBold", size: 12.0)!
+  }
 
-    class var subheadline: UIFont {
-      return UIFont(name: "AvenirNext-Medium", size: 12.0)!
-    }
+  class var subheadline: UIFont {
+    return UIFont(name: "AvenirNext-Medium", size: 16.0)!
+  }
 }
 
 extension Font {
@@ -91,7 +91,7 @@ extension Font {
 }
 
 struct Spacing {
-    static let containerPadding: CGFloat = 29.0
-    static let contentPadding: CGFloat = 36.0
-    static let contentSpacing: CGFloat = 31.0
+  static let containerPadding: CGFloat = 29.0
+  static let contentPadding: CGFloat = 36.0
+  static let contentSpacing: CGFloat = 31.0
 }
