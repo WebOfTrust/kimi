@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5E0D3B0B28292819006C7932 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0D3B0A28292819006C7932 /* User.swift */; };
 		5E195C4D283D0B6800D873F4 /* AutonomousIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E195C4C283D0B6800D873F4 /* AutonomousIdentifier.swift */; };
 		5E195C81283E978700D873F4 /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E195C80283E978700D873F4 /* ErrorWrapper.swift */; };
 		5E195C83283E97B200D873F4 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E195C82283E97B200D873F4 /* ErrorView.swift */; };
@@ -23,8 +22,8 @@
 		5E195CAA2840328600D873F4 /* SelectAliasPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E195CA92840328600D873F4 /* SelectAliasPhotoView.swift */; };
 		5E195CAE2841009D00D873F4 /* PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E195CAD2841009D00D873F4 /* PhotoPicker.swift */; };
 		5E195CB02841087800D873F4 /* ReviewConfirmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E195CAF2841087800D873F4 /* ReviewConfirmView.swift */; };
+		5E195D072846B1EA00D873F4 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E195D062846B1EA00D873F4 /* AppState.swift */; };
 		5E3F3F7827EC59B400BF28BF /* StyleGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3F3F7727EC59B400BF28BF /* StyleGuide.swift */; };
-		5E40F4C427ED1AD700B0EE0D /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E40F4C327ED1AD700B0EE0D /* ContainerView.swift */; };
 		BA2241C027E3A1F60091135D /* KIMIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2241BF27E3A1F60091135D /* KIMIApp.swift */; };
 		BA2241C227E3A1F60091135D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2241C127E3A1F60091135D /* ContentView.swift */; };
 		BA2241C427E3A1F60091135D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA2241C327E3A1F60091135D /* Assets.xcassets */; };
@@ -53,7 +52,6 @@
 
 /* Begin PBXFileReference section */
 		5E0D3B0828292510006C7932 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		5E0D3B0A28292819006C7932 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		5E195C4C283D0B6800D873F4 /* AutonomousIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutonomousIdentifier.swift; sourceTree = "<group>"; };
 		5E195C80283E978700D873F4 /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
 		5E195C82283E97B200D873F4 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
@@ -69,8 +67,8 @@
 		5E195CA92840328600D873F4 /* SelectAliasPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectAliasPhotoView.swift; sourceTree = "<group>"; };
 		5E195CAD2841009D00D873F4 /* PhotoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPicker.swift; sourceTree = "<group>"; };
 		5E195CAF2841087800D873F4 /* ReviewConfirmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewConfirmView.swift; sourceTree = "<group>"; };
+		5E195D062846B1EA00D873F4 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		5E3F3F7727EC59B400BF28BF /* StyleGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleGuide.swift; sourceTree = "<group>"; };
-		5E40F4C327ED1AD700B0EE0D /* ContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
 		BA2241BC27E3A1F60091135D /* KIMI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KIMI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA2241BF27E3A1F60091135D /* KIMIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KIMIApp.swift; sourceTree = "<group>"; };
 		BA2241C127E3A1F60091135D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -111,7 +109,6 @@
 		5E0D3B09282927AE006C7932 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				5E0D3B0A28292819006C7932 /* User.swift */,
 				5E195C4C283D0B6800D873F4 /* AutonomousIdentifier.swift */,
 				5E195C80283E978700D873F4 /* ErrorWrapper.swift */,
 				5E195C92283F7FA700D873F4 /* WalletStore.swift */,
@@ -122,9 +119,9 @@
 		5E0D3B2628294A76006C7932 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				5E195D092846B94000D873F4 /* Shared */,
+				5E195D082846B93500D873F4 /* Main */,
 				5E195C86283F65B400D873F4 /* Setup */,
-				5E40F4C327ED1AD700B0EE0D /* ContainerView.swift */,
-				5E195C82283E97B200D873F4 /* ErrorView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -144,12 +141,29 @@
 			path = Setup;
 			sourceTree = "<group>";
 		};
+		5E195D082846B93500D873F4 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BA2241C127E3A1F60091135D /* ContentView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		5E195D092846B94000D873F4 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				5E195C82283E97B200D873F4 /* ErrorView.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
 		5E40F4C227ED1AC100B0EE0D /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
 				5E195C84283EC70500D873F4 /* Authentication.swift */,
 				5E195C94283F8C1A00D873F4 /* Button.swift */,
 				5E195CAD2841009D00D873F4 /* PhotoPicker.swift */,
+				5E195D062846B1EA00D873F4 /* AppState.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -182,7 +196,6 @@
 				5E0D3B09282927AE006C7932 /* Models */,
 				5E40F4C227ED1AC100B0EE0D /* Utilities */,
 				BA2241BF27E3A1F60091135D /* KIMIApp.swift */,
-				BA2241C127E3A1F60091135D /* ContentView.swift */,
 				BA2241C327E3A1F60091135D /* Assets.xcassets */,
 				BA2241C527E3A1F60091135D /* Preview Content */,
 				5E3F3F7727EC59B400BF28BF /* StyleGuide.swift */,
@@ -371,14 +384,13 @@
 				5E195C90283F6B8700D873F4 /* WitnessURLView.swift in Sources */,
 				5E195CB02841087800D873F4 /* ReviewConfirmView.swift in Sources */,
 				5E195C93283F7FA700D873F4 /* WalletStore.swift in Sources */,
-				5E40F4C427ED1AD700B0EE0D /* ContainerView.swift in Sources */,
 				BA2241C227E3A1F60091135D /* ContentView.swift in Sources */,
 				5E195CA82840318A00D873F4 /* ConfigureAdvancedView.swift in Sources */,
 				5E195C81283E978700D873F4 /* ErrorWrapper.swift in Sources */,
-				5E0D3B0B28292819006C7932 /* User.swift in Sources */,
 				5E195C83283E97B200D873F4 /* ErrorView.swift in Sources */,
 				5E195C8A283F66A100D873F4 /* CreateAIDView.swift in Sources */,
 				5E195CAA2840328600D873F4 /* SelectAliasPhotoView.swift in Sources */,
+				5E195D072846B1EA00D873F4 /* AppState.swift in Sources */,
 				5E195C8C283F685600D873F4 /* StepsToCreateAIDView.swift in Sources */,
 				5E3F3F7827EC59B400BF28BF /* StyleGuide.swift in Sources */,
 				5E195CAE2841009D00D873F4 /* PhotoPicker.swift in Sources */,

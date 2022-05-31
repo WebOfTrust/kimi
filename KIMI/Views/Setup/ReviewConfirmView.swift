@@ -9,13 +9,13 @@ import SwiftUI
 
 struct ReviewConfirmView: View {
 
-  @State private var setupFinished = false
   @State private var image: Image?
   @State private var errorWrapper: ErrorWrapper?
 
   @Binding var aid: AutonomousIdentifier
 
-  var store = WalletStore()
+  @EnvironmentObject var store: WalletStore
+  @EnvironmentObject private var state: AppState
 
   var body: some View {
     VStack {
@@ -62,19 +62,15 @@ struct ReviewConfirmView: View {
           } catch {
             errorWrapper = ErrorWrapper(error: error, guidance: "Try again later.")
           }
+
+          state.setupComplete = true
         }
 
-        setupFinished = true
       } label: {
         Text("Confirm")
       }
       .buttonStyle(ActionButtonStyle(background: Color(colorType: .primaryAction)))
       .padding()
-
-      NavigationLink(
-        destination: ContentView(),
-        isActive: $setupFinished
-      ) {}
 
       Spacer()
 

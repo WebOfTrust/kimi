@@ -46,3 +46,7 @@ struct Authentication {
     return .undefined
   }
 }
+
+enum AuthError: Error {
+  case unknownError
+}

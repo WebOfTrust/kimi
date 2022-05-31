@@ -10,7 +10,8 @@ import SwiftUI
 struct WelcomeView: View {
   @State private var showCreateAID = false
   @State private var errorWrapper: ErrorWrapper?
-  @State private var authenticated = false
+
+  @EnvironmentObject private var state: AppState
 
   var body: some View {
     VStack(spacing: 50) {
@@ -27,7 +28,7 @@ struct WelcomeView: View {
             let authenticationState = try await Authentication.authenticate()
 
             if authenticationState == .authenticated {
-              authenticated = true
+              state.authenticated = true
             }
 
           } catch {
@@ -38,7 +39,7 @@ struct WelcomeView: View {
         Text("Continue")
       }.buttonStyle(ActionButtonStyle(background: Color(colorType: .primaryAction)))
 
-      NavigationLink(destination: CreateAIDView(), isActive: $authenticated) {}
+      NavigationLink(destination: CreateAIDView(), isActive: $state.authenticated) {}
 
       Spacer()
     }
