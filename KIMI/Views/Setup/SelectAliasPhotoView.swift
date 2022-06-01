@@ -40,7 +40,6 @@ struct SelectAliasPhotoView: View {
         } else {
           Image(systemName: "photo")
             .font(.system(size: 100))
-            .accentColor(Color(colorType: .subheadline))
         }
       }
 

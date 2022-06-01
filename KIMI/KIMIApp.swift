@@ -32,6 +32,7 @@ struct KIMIApp: App {
               showOnboarding = true
             } else {
               showOnboarding = false
+              state.setupComplete = true
             }
           } catch {
             errorWrapper = ErrorWrapper(error: error, guidance: "Reseting to onboarding.")
@@ -46,7 +47,7 @@ struct KIMIApp: App {
       .onChange(of: scenePhase) { newPhase in
         switch newPhase {
         case .active:
-          if state.authenticated == false && state.setupComplete {
+          if state.authenticated == false {
             Task {
               do {
                 let authenticationState = try await Authentication.authenticate()

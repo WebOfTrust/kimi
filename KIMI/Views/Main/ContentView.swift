@@ -12,7 +12,7 @@ struct ContentView: View {
   @State private var errorWrapper: ErrorWrapper?
 
   @EnvironmentObject private var state: AppState
-  @EnvironmentObject var store: WalletStore
+  @EnvironmentObject private var store: WalletStore
 
   var body: some View {
     TabView {
@@ -67,12 +67,12 @@ struct ContentView: View {
       Button {
         Task {
           do {
+            // Reset the store and return to onboarding scene
             try await WalletStore.save(aids: [])
+            state.setupComplete = false
           } catch {
             errorWrapper = ErrorWrapper(error: error, guidance: "Try again later.")
           }
-
-          state.setupComplete = false
         }
       } label: {
         Text("Logout")

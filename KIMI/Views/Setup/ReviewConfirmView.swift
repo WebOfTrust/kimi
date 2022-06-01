@@ -49,7 +49,7 @@ struct ReviewConfirmView: View {
       } else {
         Image(systemName: "photo")
           .font(.system(size: 100))
-          .accentColor(Color(colorType: .subheadline))
+          .foregroundColor(Color(colorType: .branding))
       }
 
       Button {
@@ -96,7 +96,7 @@ struct ReviewConfirmView_Previews: PreviewProvider {
         let urls = [
           URL(string: "http://witness.com")!,
           URL(string: "http://witness.com")!,
-          URL(string: "http://witness.com")!,
+          URL(string: "http://witness.com")!
         ]
         ReviewConfirmView(
           aid: .constant(AutonomousIdentifier(alias: "John Smith - Work", witnessURLs: urls)))
